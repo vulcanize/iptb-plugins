@@ -13,16 +13,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ipfs/go-cid"
-	config "github.com/ipfs/go-ipfs-config"
-	serial "github.com/ipfs/go-ipfs-config/serialize"
 	"github.com/multiformats/go-multiaddr"
 	"github.com/pkg/errors"
 	cnet "github.com/whyrusleeping/go-ctrlnet"
 
+	"github.com/ipfs/go-cid"
 	"github.com/ipfs/iptb-plugins"
 	"github.com/ipfs/iptb/testbed/interfaces"
 	"github.com/ipfs/iptb/util"
+	config "gx/ipfs/QmdJceoZvjZMmVeZQqcPq2BT44x44Kq88DY1PRpNZtCagF/go-ipfs-config"
+	serial "gx/ipfs/QmdJceoZvjZMmVeZQqcPq2BT44x44Kq88DY1PRpNZtCagF/go-ipfs-config/serialize"
 )
 
 var ErrTimeout = errors.New("timeout")

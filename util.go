@@ -11,13 +11,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ipfs/go-cid"
-	config "github.com/ipfs/go-ipfs-config"
 	_ "github.com/libp2p/go-libp2p"
 	"github.com/multiformats/go-multiaddr"
 	"github.com/pkg/errors"
 
+	"github.com/ipfs/go-cid"
 	"github.com/ipfs/iptb/testbed/interfaces"
+	config "gx/ipfs/QmdJceoZvjZMmVeZQqcPq2BT44x44Kq88DY1PRpNZtCagF/go-ipfs-config"
 )
 
 const (

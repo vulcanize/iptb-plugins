@@ -13,14 +13,14 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/pkg/errors"
+
+	"github.com/ipfs/go-cid"
 	"github.com/ipfs/iptb-plugins"
 	"github.com/ipfs/iptb/testbed/interfaces"
 	"github.com/ipfs/iptb/util"
-
-	"github.com/ipfs/go-cid"
-	config "github.com/ipfs/go-ipfs-config"
-	serial "github.com/ipfs/go-ipfs-config/serialize"
-	"github.com/pkg/errors"
+	config "gx/ipfs/QmdJceoZvjZMmVeZQqcPq2BT44x44Kq88DY1PRpNZtCagF/go-ipfs-config"
+	serial "gx/ipfs/QmdJceoZvjZMmVeZQqcPq2BT44x44Kq88DY1PRpNZtCagF/go-ipfs-config/serialize"
 )
 
 var errTimeout = errors.New("timeout")
